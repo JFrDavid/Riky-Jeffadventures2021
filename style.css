@@ -1,0 +1,11 @@
+h1{
+text-align: center;
+color: blue;
+}
+
+.header-links {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    }
