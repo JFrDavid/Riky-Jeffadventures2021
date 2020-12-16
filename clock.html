@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <script src="java.js"></script> 
-        <link href="style.css" rel="stylesheet">
-        <title>Riky and Jeff Adventures 2021</title>
-    <style>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=">
+  <title>Clock</title>
+  <style>
+      body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Lato", sans-serif;
+    }
     #clock {
       height: 100vh;
       width: 100%;
       color: red;
       display: flex;
-      align-items: left;
-      justify-content: left;
-      font-size: 50px;
+      align-items: center;
+      justify-content: center;
+      font-size: 150px;
     }
   </style>
-    </head>
-    <body>
-        <h1>Welcome to our website!</h1>
-        <div class="header">
-            <div class="header-links">
-                <a href="riky.html">Riky</a>
-                <a href="Jeanfrancois.html">Jean-Francois</a>
-            </div>
-        </div>
-        <div id="clock">
-        </div>
-        <script>
+</head>
+
+<body>
+  <div id="clock">
+  </div>
+  <script>
       function clock() {
       let date = new Date();
       let hrs = date.getHours();
@@ -52,5 +53,6 @@
     clock();
 
   </script>
-    </body>
+</body>
+
 </html>
