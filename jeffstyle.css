@@ -1,0 +1,90 @@
+body {
+    background-color: #b3ecff;
+    text-align: center;
+}
+
+h1{
+text-align: center;
+color: rgb(16, 16, 97);
+}
+
+.header {
+    background-color: rgba(15, 59, 189, 0.8);
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-links {
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 30px;
+    color: red;
+    }
+
+<<<<<<< Updated upstream
+/*style for the date and clock on riky.html*/
+#date-location { 
+    display: inline-block; 
+    position: absolute; 
+    left: 15px; 
+    top: 12px; 
+    text-align: left;   
+    padding: 4px; 
+    z-index: 2; 
+    }
+.date-font { 
+    color: red; 
+    font-size: 20px; 
+    font-weight: bold;
+    text-shadow: 1px 1px white; 
+    }
+
+/*style of the clock on about.html  */   
+#clock {
+    height: 100vh;
+    width: 100%;
+    color: red;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    font-size: 50px;
+    }
+
+.clock-position-riky {
+    display: inline-block; 
+    position: absolute; 
+    right: 15px; 
+    top: 10px; 
+    text-align: right;   
+    padding: 4px; 
+    z-index: 2;
+    font-weight: bold;
+    text-shadow: 1px 1px white;
+}
+=======
+
+
+
+>>>>>>> Stashed changes
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row {
+  content: "";
+  clear: both;
+  display: table;
+}
