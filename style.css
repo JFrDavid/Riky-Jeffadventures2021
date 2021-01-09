@@ -10,7 +10,7 @@ color: blue;
 
 .header {
     background-color: rgba(15, 59, 189, 0.8);
-    height: 30px;
+    height: 35px;
 }
 
 a {
@@ -26,23 +26,12 @@ a {
     color: red;
     }
 
-<<<<<<< Updated upstream
-/*style for the date and clock on riky.html*/
-#date-location { 
-    display: inline-block; 
-    position: absolute; 
-    left: 15px; 
-    top: 12px; 
-    text-align: left;   
-    padding: 4px; 
-    z-index: 2; 
-    }
 .date-font { 
     color: red; 
     font-size: 20px; 
     font-weight: bold;
     text-shadow: 1px 1px white; 
-    }
+    } 
 
 /*style of the clock on about.html  */   
 #clock {
@@ -54,20 +43,3 @@ a {
     justify-content: left;
     font-size: 50px;
     }
-
-.clock-position-riky {
-    display: inline-block; 
-    position: absolute; 
-    right: 15px; 
-    top: 10px; 
-    text-align: right;   
-    padding: 4px; 
-    z-index: 2;
-    font-weight: bold;
-    text-shadow: 1px 1px white;
-}
-=======
-
-
-
->>>>>>> Stashed changes
